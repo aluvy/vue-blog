@@ -5,19 +5,24 @@ import { createWebHistory, createRouter } from "vue-router";
 import compHome from './components/compHome.vue';
 import compList from './components/compList.vue';
 import compDetail from './components/compDetail.vue';
+import comp404 from './components/comp404.vue';
 
 const routes = [
     {
-      path: "/",
-      component: compHome ,
+        path: "/",
+        component: compHome,
     },
     {
         path: "/list",                  // 접속 경로
-        component: compList ,           // 보여줄 컴포넌트
+        component: compList,            // 보여줄 컴포넌트
     },
     {
-        path: "/detail",                  // 접속 경로
-        component: compDetail ,           // 보여줄 컴포넌트
+        path: "/detail/:id(\\d+)",
+        component: compDetail,
+    },
+    {
+        path: "/:anything(.*)",        // 404페이지
+        component: comp404,
     }
 ];
 

@@ -14,7 +14,7 @@
             <router-link to="/list" class="nav-link">List</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./detail">Detail</a>
+            <a class="nav-link" href="./detail/0">Detail</a>
           </li>
         </ul>
       </div>
