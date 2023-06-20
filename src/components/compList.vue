@@ -2,7 +2,8 @@
   <div class="blog_list">
     <ul>
       <li v-for="(a, i) in blogList" :key="i">
-        <a v-bind:href="`./detail/${a.number}`">
+        <!-- <a v-bind:href="`./detail/${a.number}`"> -->
+        <a href="#" @click="$router.push(`/detail/${i}`)">
           <h5>{{ a.title }}</h5>
           <p>{{ a.content }}</p>
         </a>

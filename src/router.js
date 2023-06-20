@@ -5,6 +5,8 @@ import { createWebHistory, createRouter } from "vue-router";
 import compHome from './components/compHome.vue';
 import compList from './components/compList.vue';
 import compDetail from './components/compDetail.vue';
+import compAuthor from './components/compAuthor.vue';
+import compComment from './components/compComment.vue';
 import comp404 from './components/comp404.vue';
 
 const routes = [
@@ -17,8 +19,18 @@ const routes = [
         component: compList,            // 보여줄 컴포넌트
     },
     {
-        path: "/detail/:id(\\d+)",
+        path: "/detail/:id",
         component: compDetail,
+        children: [
+            {
+                path: "author",
+                component: compAuthor
+            },
+            {
+                path: "comment",
+                component: compComment
+            },
+        ]
     },
     {
         path: "/:anything(.*)",        // 404페이지
