@@ -41,5 +41,6 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "gh-deploy": "git subtree push --prefix dist origin gh-pages"
 }
