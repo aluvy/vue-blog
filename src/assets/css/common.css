@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+:root{
+    --fc_01: #1E1E1E;
+    --fc_02: #B4B4B4;
+    --fc_03: #FF5353;
+    --fc_04: #FFC045;
+    --fc_05: #7EE050;
+
+    --bg_01: #1E1E1E;
+    --bg_02: #F4F4F4;
+    --bg_03: #FF5353;
+    --bg_04: #FFC045;
+    --bg_05: #7EE050;
+
+    --placeholder:#B4B4B4;
+}
+
+/* body{background:var(--bg_02, #f4f4f4); min-width:102.4rem;} */
