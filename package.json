@@ -2,6 +2,7 @@
   "name": "vue-blog",
   "version": "0.1.0",
   "private": true,
+  "gh-deploy": "git subtree push --prefix dist origin gh-pages",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -41,6 +42,5 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ],
-  "gh-deploy": "git subtree push --prefix dist origin gh-pages"
+  ]
 }
