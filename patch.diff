@@ -1,0 +1,33 @@
+diff --git a/README.md b/README.md
+index 09508e4..0ce12c0 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,28 @@
+ # vue-blog
++<<<<<<< HEAD
+ vue-blog
++=======
++
++## Project setup
++```
++npm install
++```
++
++### Compiles and hot-reloads for development
++```
++npm run serve
++```
++
++### Compiles and minifies for production
++```
++npm run build
++```
++
++### Lints and fixes files
++```
++npm run lint
++```
++
++### Customize configuration
++See [Configuration Reference](https://cli.vuejs.org/config/).
++>>>>>>> 4214044 (init)
