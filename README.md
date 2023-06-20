@@ -1,4 +1,7 @@
 # vue-blog
+https://aluvy.github.io/vue-blog/
+
+<br>
 
 ## Project setup
 ```
