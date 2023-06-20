@@ -11,10 +11,10 @@
   <div class="detail_tab">
     <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" v-bind:href="`/detail/${num}/author`">Ahthor</a>
+        <router-link class="nav-link active" aria-current="page" :to="`/detail/${num}/author`">Ahthor</router-link>
       </li>
       <li class="nav-item">
-        <a class="nav-link" v-bind:href="`/detail/${num}/comment`">Comment</a>
+        <router-link class="nav-link" :to="`/detail/${num}/comment`">Comment</router-link>
       </li>
     </ul>
   </div>

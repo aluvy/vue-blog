@@ -1,4 +1,7 @@
-import { createWebHistory, createRouter } from "vue-router";
+// import { createWebHistory, createRouter } from "vue-router";
+
+import { createRouter, createWebHashHistory } from 'vue-router'
+
 // vue-router 라이브러리의 함수들을 import 한다.
 // createRouter : 라우터생성을 도와주는 함수
 
@@ -39,7 +42,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
 });
 

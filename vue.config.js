@@ -3,5 +3,4 @@ module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: "/vue-blog/",
   assetsDir: './',
-  outputDir: "dist",
 })
